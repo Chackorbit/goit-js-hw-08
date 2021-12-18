@@ -7,6 +7,11 @@ const refs = {
   email: document.querySelector('.feedback-form input'),
   message: document.querySelector('.feedback-form textarea'),
 };
+// const feedBack = {
+//   Email: refs.email.value,
+//   Message: refs.message.value,
+// };
+// console.log(feedBack);
 
 // загружаем значения из хранилища если в нем что-то есть
 if (localStorage.getItem('email') || localStorage.getItem('message')) {
